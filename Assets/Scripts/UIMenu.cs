@@ -20,7 +20,6 @@ public class UIMenu : MonoBehaviour
     public void GetNameInput(string value)
     {
         DataManager.Instance.playerName = value;
-        Debug.Log("Test: " + value);
     }
 
     public void OnStartButtonClick()
